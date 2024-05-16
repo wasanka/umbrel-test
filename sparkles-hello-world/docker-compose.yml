@@ -6,7 +6,7 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 8080
+      APP_PORT: 80
     
   server:
     #image: getumbrel/community-app-store-hello-world:latest
